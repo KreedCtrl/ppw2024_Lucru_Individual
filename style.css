@@ -1,8 +1,36 @@
 body{
-    
+    color: black;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
 }
 
 .top{
-display: flex;
-justify-content: space-between;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 1%;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    border: 1px solid black;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border: 1px solid black;
+}
+
+.top-element{
+    margin: 2px;
 }
