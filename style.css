@@ -1,36 +1,101 @@
-body{
+body {
+    font-family: Arial, sans-serif;
     color: black;
-    margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
-.top{
-    padding: 1%;
+header {
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+}
+
+.header-top {
     display: flex;
     justify-content: space-between;
-}
-li{
-    list-style-type: none;
-    display: inline;
-    padding: 1%;
+    align-items: center;
 }
 
-.right{
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-cart span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navigation ul {
     display: flex;
-    justify-content: space-between;
-    align-items: right;
-    border: 1px solid black;
+    justify-content: center;
+    background-color: coral;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
 }
 
-.left{
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    color: coral;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    color: gray;
+}
+
+.products {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.product-grid {
     display: flex;
-    justify-content: space-between;
-    align-items: left;
-    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.top-element{
-    margin: 2px;
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+footer {
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
