@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     color: black;
     margin: 0;
     padding: 0;
     background-color: white;
 }
 
+
 header {
     background-color: coral;
     color: white;
-    padding: 10px 15px;
+    padding: 1px 15px;
 }
 
 .header-top {
@@ -18,10 +19,12 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+.logo img {
+    padding-left: 20%;
+    width: 80px;
+    height: auto; 
 }
+
 
 .search-cart span {
     margin-left: 20px;
@@ -80,13 +83,57 @@ main {
 
 .product-card {
     background-color: white;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     padding: 15px;
-    width: 30%;
+    width: 20%;
     margin: 10px;
     box-shadow: 2px 2px 5px black;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
+.product-image {
+    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product-card h4 {
+    font-size: 18px;
+    color: coral;
+    margin: 5px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin: 3px 0;
+    color: gray;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkgreen;
+    margin-top: 10px;
+}
+
+.product-more {
+    background-color: coral;
+    border: 3px solid whitesmoke;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 8px;  
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
 
 footer {
     background-color: coral;
@@ -95,7 +142,6 @@ footer {
     padding: 10px;
     margin-top: 20px;
     align-items: flex-end;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
