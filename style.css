@@ -1,5 +1,6 @@
 body {
-    font-family: Arial;
+    overflow-x: hidden;
+    font-family: Roboto;
     color: black;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
 header {
     background-color: coral;
     color: white;
-    padding: 1px 15px;
+    padding: -5px 50px;
 }
 
 .header-top {
@@ -21,27 +22,35 @@ header {
 
 .logo img {
     padding-left: 20%;
-    width: 80px;
-    height: auto; 
+    width: auto;
+    height: 90px;
 }
 
 
-.search-cart span {
-    margin-left: 20px;
+.personal {
+    display: flex;
     cursor: pointer;
+}
+
+.personal img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 40px;
 }
 
 .navigation ul {
     display: flex;
     justify-content: center;
     background-color: coral;
+    color: black;
     list-style: none;
     padding: 10px;
-    margin: 0;
+    margin: 0 15px;
 }
 
 .navigation li {
-    margin: 0 15px;
+    margin: -10px 15px 10px 10px  ;
 }
 
 .navigation a {
@@ -87,7 +96,7 @@ main {
     padding: 15px;
     width: 20%;
     margin: 10px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 3px 8px -6px;
     text-align: left;
     position: relative;
     display: flex;
@@ -107,22 +116,45 @@ main {
     margin: 5px 0;
 }
 
+.product-card {
+    font-size: 16px;
+    margin: 3px 0;
+    color: black;
+}
+
 .product-card p {
     font-size: 14px;
     margin: 3px 0;
     color: gray;
 }
 
-.product-price {
-    font-size: 16px;
+.product-card button{
+    background-color: coral;
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
     font-weight: bold;
-    color: darkgreen;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 8px;  
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.product-price p{
+    display:inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
     margin-top: 10px;
 }
 
-.product-more {
+.product-more a{
     background-color: coral;
-    border: 3px solid whitesmoke;
+    border: 3px solid white;
     text-decoration: none;
     color: white;
     font-weight: bold;
