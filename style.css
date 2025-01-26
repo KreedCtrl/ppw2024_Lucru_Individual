@@ -83,6 +83,18 @@ main {
     color: gray;
 }
 
+.about {
+    padding: 40px 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
 .products {
     text-align: center;
     margin-top: 30px;
