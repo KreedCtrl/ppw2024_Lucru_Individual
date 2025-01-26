@@ -9,9 +9,11 @@ body {
 
 
 header {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
     background-color: coral;
     color: white;
-    padding: -5px 50px;
+    padding: 5px 50px;
 }
 
 .header-top {
@@ -22,26 +24,28 @@ header {
 
 .logo img {
     padding-left: 20%;
-    width: auto;
-    height: 90px;
+    width: 100px;
+    height: auto;
 }
-
 
 .personal {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     cursor: pointer;
 }
 
-.personal img{
+.personal img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .navigation ul {
     display: flex;
     justify-content: center;
+    align-items: center; /* Align items to the center */
     background-color: coral;
     color: black;
     list-style: none;
@@ -50,7 +54,8 @@ header {
 }
 
 .navigation li {
-    margin: -10px 15px 10px 10px  ;
+    padding-top: 30px;
+    margin: 0 15px;
 }
 
 .navigation a {
