@@ -192,6 +192,13 @@ footer {
     line-height: 10px;
 }
 
+footer h4{
+    margin: 6px;
+}
+footer p{
+    margin: 6px;
+}
+
 .footer-container {
     display: grid;
     grid-template-columns: 25% 35% 25% 15%;
